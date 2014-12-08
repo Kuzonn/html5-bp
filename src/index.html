@@ -14,12 +14,110 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
         <!--[if lt IE 8]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <div id="wrapper">
+	   <div id="branding">
+	      <img class="logo" alt="Empire Logo" src="img/logo.png">
+	      <a href="http://www.facebook.com"><img class="sfblogo" alt="Facebook Logo"
+	      src="img/sfblogo.png"></a>
+	      <p>Available 7 Days a Week<br><b>CALL US
+	      TODAY</b><strong>1-800-555-5555</strong></p>
+	      <img class="bbblogo" alt="Better Business Logo" src="img/bbblogo.png">
+	   </div>
+	   <div id="primary_links">
+	      <ul>
+	         <li class="first"> <a href="#">SERVICES</a></li>
+		 <li class="mid"> <a href="#">COOLING</a></li>
+		 <li class="mid"> <a href="#">HEATING</a></li>
+		 <li class="mid"> <a href="#">ABOUT</a></li>
+		 <li class="last"> <a href="#">CONTACT</a></li>
+	      </ul>
+	   </div>
+	   <div id="contact">
+	      <div id="contact_title"><h1>Call us now for an estimate at
+	      1-800-555-5555</h1></div>
+	      <div id="contact_quote"><p>We're dedicated to making sure your family or business is as comfortable
+	      as possible</p></div>
+	   </div>
+	   <div id="serving"><h6>SERVING CLIFTON AND ALL OF NORTHERN NEW JERSEY</h6></div>
+	   <div id="video">
+	      <img class="videoimg" alt="Video goes here" src="img/video.png">
+	   </div>
+	   <div id="facebook">
+	      <p><img class="FBlogo1" alt="Facebook Logo" src="img/fblogo.png"><b>Like us
+	      on Facebook </b>for our current offers and deals!<img class="FBlogo2" alt="Facebook Logo"
+	      src="img/fblogo.png"></p>
+	      <div class="fb-like"
+	      data-href="https://web.njit.edu/~drd8/html5bp/src/"
+	      data-layout="button_count" data-action="like" data-show-faces="true"
+	      data-share="true"></div>
+	   </div>
+	   <div id="welcome"><b>WELCOME TO EMPIRE HEATING & COOLING</b>
+	      <p>Whether you need to repair, replace, upgrade or even add a new system, out
+	      products are designed to make you more comfortable. We have the knowledge and
+	      expertise to help you choose the right heating and air conditioning system to
+	      meet your needs so that you benefit from increased efficiency, reliability, and
+	      control of your home or businesses' indoor environment.</p>
+	   </div>
+	   <div id="qualities">
+	      <ul>
+	         <li>Full Insured/Owner Operated</li>
+		 <li>Trained and experienced engineers, technicians and installers</li>
+		 <li>Trouble-free installation and service calls</li>
+		 <li>TQM: Total Quality Program</li>
+		 <li> Exceptional customer service from start to finish</li>
+		 <li>Service and preventative maintenance contracts</li>
+	      </ul>
+	   </div>
+	   <div id="table">
+	      <img class="hctable" alt="Heating and Cooling Table" src="img/table.png">
+	   </div>
+	   <div id="heating">
+	      <h1>Heating</h1>
+	      <p>Our goal is to keep you warm and comfortable through the winter months.
+	      We know which products and systems will work best for you. Our
+	      recommendations will always keep your requirements and budget in mind. We'll
+	      respond to your requests and act quickly when you call. Nothing is more
+	      important than your peace of mind when the weather is cold.</p>
+	      <img class="heating1" alt="Heating Pic" src="img/heating1.png">
+	      <img class="heating2" alt="Heating Pic" src="img/heating2.png">
+	      <img class="heating3" alt="Heating Pic" src="img/heating3.png">
+	   </div>
+	   <div id="cooling">
+	      <h1>Cooling</h1>
+	      <p>Central air conditioning helps keep you environment cool and reduces
+	      humidity levels. As the central air conditioning system draes air out of
+	      various rooms in your house or business through return air ducts, the air is
+	      pulled through an air filter, which removed airborne particles such as dust
+	      and lint. The filtered air is then routed to air supply ductwork that
+	      carries it back to the rooms.</p>
+	      <img class="cooling1" alt="Cooling Pic" src="img/cooling1.png">
+	      <img class="cooling2" alt="Cooling Pic" src="img/cooling2.png">
+	      <img class="cooling3" alt="Cooling Pic" src="img/cooling3.png">
+	   </div>
+	   <div id="aboutus">
+	      <h1>About Us</h1>
+	      <p>Our goal is to keep you warm and comfortable through the winter months.
+	      We know which products and systems will work best for you. Our
+	      recommendations will always keep your requirements and budget in mid. We'll
+	      respond to your requests and act quickly when you call. Nothing is more
+	      important than your peace of mind when the weather is cold.</p>
+	      <img class="aboutus" alt="About Us" src="img/aboutus.png">
+	   </div>
+
+	</div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/{{JQUERY_VERSION}}/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>

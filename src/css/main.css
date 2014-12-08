@@ -264,3 +264,246 @@ textarea {
         page-break-after: avoid;
     }
 }
+h1 {
+   font-size: 220%;
+   margin: 10px;
+   margin-bottom: 0px;
+}
+h2 {
+   font-size: 200%;
+}
+h3 {
+   font-size: 180%;
+}
+h4 {
+   font-size: 160%;
+}
+h5 {
+   font-size: 140%;
+}
+h6 {
+   font-size: 120%;
+   margin: 22px;
+}
+p {
+   margin: 0px;
+}
+#wrapper {
+   width:1366px;
+   margin-left: auto;
+   margin-right: auto;
+   color: #414757;
+   background-color: white;
+}
+#branding {
+   margin-top: 10px;
+   margin-left: 195px;
+   margin-right: 195px;
+}
+.logo {
+   height: 20%;
+   width: 20%;
+}
+.bbblogo {
+   float: right;
+   margin-right: 32px;
+   margin-top: 16px;
+}
+#branding p {
+   float: right;
+   line-height: 15px;
+   margin-top: 15px;
+   text-align: right;
+}
+#branding strong {
+   color: #3E8251;
+}
+.sfblogo {
+   float: right;
+   margin-left: 15px;
+   margin-top: 15px;
+}
+#primary_links {
+   width: 1366px;
+   height: 50px;
+   line-height: 50px;
+   background-color: #3E8251;
+}
+#primary_links li {
+   display: inline;
+}
+#primary_links ul {
+   margin: 8px;
+   background-color: #3E8251;
+}
+#primary_links .first {
+   margin-left: 315px;
+   margin-right: 25px;
+}
+#primary_links .mid {
+   margin-left: 45px;
+   margin-right: 30px;
+}
+#primary_links .last {
+   margin-right: 100px;
+   margin-left: 35px;
+}
+#primary_links a {
+   text-decoration: none;
+   color: white;
+}
+#primary_links a:hover {
+   text-decoration: underline;
+   color: white;
+}
+#contact {
+   margin-left: 195px;
+   margin-right: 195px;
+   text-align: center;
+}
+#contact_quote {
+   color: #B0B0B0;
+}
+#contact_title {
+   margin-bottom: 0px;
+   margin-top: 10px;
+   line-height: 30px;
+}
+#serving {
+   margin-left: 195px;
+   margin-right: 195px;
+   color: #3E8251;
+   text-align: center;
+}
+#video {
+   margin-left: 406px;
+   margin-right: 406px;
+   margin-bottom: 26px;
+}
+#facebook {
+   margin-left: 195px;
+   margin-right: 195px;
+   width: 976px;
+   height: 50px;
+   line-height: 50px;
+   color: white;
+   background-color: #3B5999;
+   border-radius: 5px 5px 5px 5px;
+}
+.FBlogo1 {
+   width: 45px;
+   height: 45px;
+   margin-right: 250px;
+}
+.FBlogo2 {
+   width: 45px;
+   height: 45px;
+   margin-left: 250px;
+}
+#welcome {
+   width: 460px;
+   float: left;
+   margin-left: 195px;
+   margin-top: 50px;
+}
+#qualities {
+   width: 420px;
+   float: right;
+   margin-right: 195px;
+   margin-top: 50px;
+}
+#table {
+   margin-left: 195px;
+}
+.hctable {
+   width: 976px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+#heating {
+   margin-top: 20px;
+   margin-bottom: 20px;
+   height: 380px;
+   background-color: #EEF1F6;
+}
+#heating h1 {
+   margin-left: 195px;
+   margin-right: 195px;
+   height: 60px;
+   line-height: 90px;
+   text-align: center;
+   color: #BE382A;
+}
+#heating p {
+   margin-left: 195px;
+   margin-right: 195px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   text-align: center;
+}
+.heating1 {
+   margin-left: 260px;
+}
+.heating2 {
+   margin-left: 55px;
+   margin-right: 55px;
+}
+.heating3 {
+   margin-right: 260px;
+}
+#cooling {
+   margin-top: 20px;
+   margin-bottom: 20px;
+   height: 380px;
+}
+#cooling h1 {
+   margin-left: 195px;
+   margin-right: 195px;
+   height: 60px;
+   line-height: 90px;
+   text-align: center;
+   color: #2F82BB;
+}
+#cooling p {
+   margin-left: 195px;
+   margin-right: 195px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   text-align: center;
+}
+.cooling1 {
+   margin-left: 260px;
+}
+.cooling2 {
+   margin-left: 55px;
+   margin-right: 55px;
+}
+.cooling3 {
+   margin-right: 260px;
+}
+#aboutus {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 839px;
+  background-color: #EEF1F6;
+}
+#aboutus h1 {
+   margin-left: 195px;
+   margin-right: 195px;
+   height: 60px;
+   line-height: 90px;
+   text-align: center;
+   color: #3F3F41;
+}
+#aboutus p {
+   margin-left: 195px;
+   margin-right: 195px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   text-align: center;
+}
+.aboutus {
+   margin-left: 195px;
+   margin-right: 195px;
+   width: 70%;
+}
